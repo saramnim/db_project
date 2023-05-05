@@ -1,0 +1,32 @@
+#page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 0 0 0;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+#text_input{
+    width: 10vw;
+    height: 3vh;
+}
+
+#btn {
+    border: none;
+    background-color: paleturquoise;
+    border-radius: 10px;
+    text-align: center;
+    width: 10vw;
+    height: 3vh;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: aqua;
+}
